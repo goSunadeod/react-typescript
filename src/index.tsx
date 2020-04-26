@@ -15,6 +15,7 @@ ReactDOM.render(
           <Switch>
               <Route exact path="/" component={App}></Route>
               <Route exact path="/demo" component={Demo}></Route>
+              <Route exact path="/demo/:id" component={App}></Route>
           </Switch>
       </HashRouter>
   </React.StrictMode>,
