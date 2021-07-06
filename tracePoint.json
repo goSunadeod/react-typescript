@@ -1,0 +1,53 @@
+{
+  "repeatedTag": {},
+  "illegalTag": {},
+  "map": {
+    "src/App.tsx": [
+      {
+        "value": "30",
+        "line": 18
+      }
+    ],
+    "src/components/Demo.tsx": [
+      {
+        "value": "31",
+        "line": 25
+      },
+      {
+        "value": "32",
+        "line": 33
+      },
+      {
+        "value": "33",
+        "line": 40
+      },
+      {
+        "value": "34",
+        "line": 44
+      }
+    ],
+    "src/index.tsx": [
+      {
+        "value": "35",
+        "line": 10
+      },
+      {
+        "value": "36",
+        "line": 11
+      },
+      {
+        "value": "37",
+        "line": 15
+      },
+      {
+        "value": "38",
+        "line": 16
+      },
+      {
+        "value": "39",
+        "line": 17
+      }
+    ]
+  },
+  "nextPoint": 40
+}

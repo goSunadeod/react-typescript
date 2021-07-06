@@ -7,14 +7,14 @@ import { HashRouter, Route, Switch } from 'react-router-dom';
 ReactDOM.render(
     <>
         <ul>
-            <li><a href="#/">Home</a></li>
-            <li><a href="#/demo">Demo</a></li>
+            <li><a href="#/" data-xt="35">Home</a></li>
+            <li><a href="#/demo" data-xt="36">Demo</a></li>
         </ul>
         <HashRouter>
             <Switch>
-                <Route exact path="/" component={App}></Route>
-                <Route exact path="/demo" component={Demo}></Route>
-                <Route exact path="/demo/:id" component={App}></Route>
+                <Route exact path="/" component={App} data-xt="37"></Route>
+                <Route exact path="/demo" component={Demo} data-xt="38"></Route>
+                <Route exact path="/demo/:id" component={App} data-xt="39"></Route>
             </Switch>
         </HashRouter>
     </>,

@@ -15,36 +15,34 @@ function Index() {
             setAge(item)
         })
     }
-    return (
-        <>
-            Count: {count}
-            Age: {age}
-            <button
-                onClick={() => {
-                    setCount(0)
-                }}
-            >
-                Reset
-            </button>
-            <button
-                onClick={() => {
-                    // setState方法第一个参数为以前的值
-                    setCount(pre => pre + 1)
-                }}
-            >
-                +
-            </button>
-            <button
-                onClick={() => {
-                    setCount(pre => pre - 1)
-                }}
-            >
-                -
-            </button>
-            <br />
-            <Button onClick={handleClick} className={styles['test']}>测试循环</Button>
-        </>
-    )
+    return <>
+        Count: {count}
+        Age: {age}
+        <button
+            onClick={() => {
+                setCount(0)
+            }}
+            data-xt="31">
+            Reset
+        </button>
+        <button
+            onClick={() => {
+                // setState方法第一个参数为以前的值
+                setCount(pre => pre + 1)
+            }}
+            data-xt="32">
+            +
+        </button>
+        <button
+            onClick={() => {
+                setCount(pre => pre - 1)
+            }}
+            data-xt="33">
+            -
+        </button>
+        <br />
+        <Button onClick={handleClick} className={styles['test']} data-xt="34">测试循环</Button>
+    </>;
 }
 
 export default Index;
